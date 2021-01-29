@@ -1,7 +1,7 @@
 <?
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 ?>
-<div class="form-discount-wrap">
+<div class="form-discount-wrap" <?if ($arResult["HIDE"] == "Y"): ?>style="display:none"<?endif;?>>
 	<div class="form-discount">
 		<div class="form-discount__left-side" style="background: url('<?=$templateFolder . '/images/form_back.jpg';?>') no-repeat;"></div>
 		<div class="form-discount__right-side">
